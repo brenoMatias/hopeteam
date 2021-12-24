@@ -1,12 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function About() {
     return (
-        <div>
-            <h1>test('should ', () => {
-                
-            })
-            </h1>
+        <div className="about-main">
+            <h1>test</h1>
         </div>
     )
 }

@@ -57,3 +57,11 @@ body {
     margin-top: auto;
   }
 }
+
+.about-main {
+  height: 100px;
+  background-color: brown;
+  width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+}
