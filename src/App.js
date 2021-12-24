@@ -3,7 +3,8 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import Footer from './components/Footer';
-import Galery from './components/Galery'
+import Galery from './components/galery/Galery';
+import Contact from './components/Contact';
 
 
 
@@ -15,6 +16,7 @@ function App() {
           <Switch>
              <Route path="/" exact component={Home}/>
              <Route path="/galeria" component={Galery}/>
+             <Route path="/contato" component={Contact} />
           </Switch>
          
      </BrowserRouter>

@@ -71,3 +71,8 @@
     width: 100vw;
   }
 }
+
+.galeryBody {
+  background-color: aqua;
+  min-height: 1000px;
+}

@@ -29,6 +29,7 @@ export class Galery extends Component {
     render() {  
         const { showHideComp1, showHideComp2 } = this.state;  
         return (  
+            <div className="galeryBody"> 
             <div className="showButton">                
                 <div>  
                     <button className="btn btn-info" onClick={() => this.hideComponent("showHideComp1")}>  
@@ -48,7 +49,7 @@ export class Galery extends Component {
 
 
             </div>  
-
+            </div>
 
         );  
     }  

@@ -1,4 +1,4 @@
-import "./Galery.css";
+import './Galery.css';
 import React, { useState } from "react";
 import JsonData from './photos-data.json';
 import ReactPaginate from "react-paginate";
