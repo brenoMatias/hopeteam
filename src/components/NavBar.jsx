@@ -1,7 +1,7 @@
 import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
 import '../components/NavBar.css';
-import hopeLogo from '../images/hopeLogo.png';
+import typoLogo from '../images/typoLogo.svg';
 
 
 
@@ -18,7 +18,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             
-            <img src={hopeLogo} alt="hope logo" ></img>
+            <img src={typoLogo} alt="hope logo" ></img>
           </Link>
 
           <div className='menu-icon' onClick={handleClick}>
@@ -26,7 +26,6 @@ function Navbar() {
           </div>
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-
             <li className='nav-item'>
               <Link to='/' 
                 className='nav-links'

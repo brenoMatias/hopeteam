@@ -3,6 +3,8 @@ import Comp1 from "./Photos";
 import Comp2 from "./Videos";
 import Footer from '../Footer';
 import './Galery.css';
+// import  {arrowDown1} from './arrowDown.gif';
+
 
 
 export class Galery extends Component {  
@@ -37,6 +39,7 @@ export class Galery extends Component {
                 <div>  
                     <button className="btn btn-info" onClick={() => this.hideComponent("showHideComp1")}>  
                         Fotos 
+  
               </button>  
               {showHideComp1 && <Comp1 />} 
               </div> 
@@ -45,11 +48,12 @@ export class Galery extends Component {
                     <button className="btn btn-info" onClick={() => this.hideComponent("showHideComp2")}>  
                         Videos 
               </button>  
-              <hr />  
                 {showHideComp2 && <Comp2 />}  
-                <hr /> 
                 </div>
             </div>  
+            <hr /> <hr /> <hr /> <hr /> <hr /> <hr />
+            <hr /> <hr /> <hr /> <hr /> <hr /> <hr /> 
+            <hr /> <hr /> <hr /> <hr /> <hr /> <hr /> 
             <Footer />
             </div>
 

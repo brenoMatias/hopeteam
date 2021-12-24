@@ -65,27 +65,15 @@
 
 
 .galeryBody {
-  background-color: rgb(17, 0, 255);
+  /* background-color: rgb(17, 0, 255); */
   min-height: 1000px;
 }
 
-.social-media-wrap{
-  width: 1024px;
-  display: flex;
-  flex-direction: column;
-}
 
-.social-media-wrap .social-icons  {
-  background-color: rgb(128, 42, 42);
-  display: flex;
+
+.showButton .btn {
+  background-color: #dceed7;
   width: 100%;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
-}
-
-i {
-  font-size: 1.5em;
 }
 
 @media only screen and (max-width:1000px) {
@@ -95,16 +83,4 @@ i {
     justify-content: center;
     width: 100vw;
   }
-
-  .social-media-wrap {
-      background-color: rgb(41, 168, 138);
-      display: flex;
-      justify-content: center;
-      width: 100%;
-    }
-  }
-
-.showButton .btn {
-  background-color: #dceed7;
-  width: 100%;
 }

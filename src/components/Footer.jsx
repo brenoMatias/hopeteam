@@ -12,7 +12,7 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-            HOPE TEAM
+            {/* HOPE TEAM */}
             </Link>
           </div>
           <div class='social-icons'>
