@@ -1,0 +1,73 @@
+.cardsList {
+  background-color: rgba(2, 2, 2, 0.521);
+  min-height: 100px;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  width: 100vw;
+}
+
+.user {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: #b3e3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  margin: 20px;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid #2b2eff;
+  color: #2b2eff;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #2b2eff;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: grey;
+}
+
+
+@media only screen and (max-width:1000px) {
+  .main {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: center;
+    width: 100vw;
+  }
+}
