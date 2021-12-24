@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Comp1 from "./Photos";  
 import Comp2 from "./Videos";
 import Footer from '../Footer';
+import './Galery.css';
 
 
 export class Galery extends Component {  

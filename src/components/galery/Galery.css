@@ -10,6 +10,7 @@
 }
 
 
+
 .main {
   display: grid;
   grid-template-columns: repeat(2, auto);
@@ -42,31 +43,29 @@
   padding: 10px;
   margin: 8px;
   border-radius: 5px;
-  border: 1px solid #2b2eff;
-  color: #2b2eff;
+  border: 1px solid #5dbe1c;
+  color: #3eeb1c;
   cursor: pointer;
 }
 
 .paginationBttns a:hover {
   color: white;
-  background-color: #2b2eff;
+  background-color: #191bb4;
 }
 
 .paginationActive a {
   color: white;
-  background-color: #2b2eff;
+  background-color: #4ae945;
 }
 
 .paginationDisabled a {
   color: grey;
-  background-color: grey;
+  background-color: rgb(167, 17, 17);
 }
 
 
-
-
 .galeryBody {
-  background-color: aqua;
+  background-color: rgb(17, 0, 255);
   min-height: 1000px;
 }
 
@@ -98,11 +97,14 @@ i {
   }
 
   .social-media-wrap {
-      background-color: rgb(108, 184, 166);
+      background-color: rgb(41, 168, 138);
       display: flex;
       justify-content: center;
       width: 100%;
-
     }
+  }
 
+.showButton .btn {
+  background-color: #dceed7;
+  width: 100%;
 }
