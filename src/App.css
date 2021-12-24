@@ -10,3 +10,7 @@ body {
   display: flex;
   margin-top: 0px;
 }
+
+.cards2 {
+  justify-content: center;
+}
