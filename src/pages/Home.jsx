@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import '../pages/Home.css';
+import CarouselContainer from '../components/CarouselContainer';
 
 export default function Home() {
     return (
-        <div>
-            <h1>Hello World</h1>
+
+            <div className="home-container"> 
+            <CarouselContainer />
+
+            </div>
             
-        </div>
     )
 }
