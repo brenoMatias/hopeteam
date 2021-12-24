@@ -1,6 +1,7 @@
 import React, { Component } from 'react' 
 import Comp1 from "./Photos";  
-import Comp2 from "./Videos";  
+import Comp2 from "./Videos";
+import Footer from '../Footer';
 
 
 export class Galery extends Component {  
@@ -13,6 +14,7 @@ export class Galery extends Component {
         };  
         this.hideComponent = this.hideComponent.bind(this);  
     }  
+
     hideComponent(name) {  
         console.log(name);  
         switch (name) {  
@@ -22,8 +24,8 @@ export class Galery extends Component {
             case "showHideComp2":  
                 this.setState({ showHideComp2: !this.state.showHideComp2 });  
                 break;  
-            default:  
- 
+            default:
+                return null;
         }  
     }  
     render() {  
@@ -46,9 +48,8 @@ export class Galery extends Component {
                 {showHideComp2 && <Comp2 />}  
                 <hr /> 
                 </div>
-
-
             </div>  
+            <Footer />
             </div>
 
         );  

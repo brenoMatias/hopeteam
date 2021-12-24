@@ -63,6 +63,32 @@
 }
 
 
+
+
+.galeryBody {
+  background-color: aqua;
+  min-height: 1000px;
+}
+
+.social-media-wrap{
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-wrap .social-icons  {
+  background-color: rgb(128, 42, 42);
+  display: flex;
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+i {
+  font-size: 1.5em;
+}
+
 @media only screen and (max-width:1000px) {
   .main {
     display: grid;
@@ -70,9 +96,13 @@
     justify-content: center;
     width: 100vw;
   }
-}
 
-.galeryBody {
-  background-color: aqua;
-  min-height: 1000px;
+  .social-media-wrap {
+      background-color: rgb(108, 184, 166);
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+    }
+
 }

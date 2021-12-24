@@ -26,3 +26,34 @@ body {
     margin-right: 20px;
   }
 }
+
+.map {
+  margin-bottom: 30px;
+}
+
+.map1 {
+  display: flex;
+  background-color: aqua;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.classes {
+  margin-top: 20px;
+  width: 1024px;
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (max-width:1000px) {
+  .classes {
+    background-color: blue;
+    width: 100%;
+    margin-left: auto;
+    margin-top: auto;
+  }
+}
