@@ -8,8 +8,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 21em;
-  background-size: 18em;
+  height: 8em;
+  background-size: 7em;
   margin-top: 8px;
   border: 3px solid black;
 }
@@ -127,16 +127,15 @@
 }
 
 .social-media-wrap .social-icons  {
-  background-color: rgb(128, 42, 42);
+  background-color: rgba(128, 42, 42, 0.548);
   display: flex;
   width: 100%;
-  padding-right: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
+  padding: 7px 7px 7px 7px;
+  margin-top: -40px;
 }
 
 i {
-  font-size: 1.5em;
+  font-size: 1.em;
 }
 
 @media only screen and (max-width:1000px) {

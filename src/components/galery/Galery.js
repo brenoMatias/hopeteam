@@ -3,7 +3,7 @@ import Comp1 from "./Photos";
 import Comp2 from "./Videos";
 import Footer from '../Footer';
 import './Galery.css';
-// import  {arrowDown1} from './arrowDown.gif';
+import  arrowDown1 from './arrowDown1.gif';
 
 
 
@@ -35,12 +35,14 @@ export class Galery extends Component {
         const { showHideComp1, showHideComp2 } = this.state;  
         return (  
             <div className="galeryBody"> 
+
             <div className="showButton">                
-                <div>  
+                <div className="showB">  
                     <button className="btn btn-info" onClick={() => this.hideComponent("showHideComp1")}>  
                         Fotos 
-  
               </button>  
+              <img clasName="arrow-icon" src={arrowDown1}></img>
+              
               {showHideComp1 && <Comp1 />} 
               </div> 
 

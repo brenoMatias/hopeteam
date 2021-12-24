@@ -11,6 +11,10 @@ body {
   margin-top: 0px;
 }
 
+.carousel {
+  margin-top: 21px;
+}
+
 .cards2 {
   justify-content: center;
 }
@@ -24,6 +28,14 @@ body {
 @media only screen and (max-width:1000px) {
   .menu-icon {
     margin-right: 20px;
+  }
+
+  .carousel {
+    margin-top: 20px;
+  }
+
+  .navbar-logo{
+    margin-top: 30px;
   }
 }
 

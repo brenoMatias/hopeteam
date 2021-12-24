@@ -36,8 +36,8 @@ function Photos() {
       <div>
 
       <ReactPaginate
-        previousLabel={"Previous"}
-        nextLabel={"Next"}
+        previousLabel={"Anterior"}
+        nextLabel={"Próximo"}
         pageCount={pageCount}
         onPageChange={changePage}
         containerClassName={"paginationBttns"}

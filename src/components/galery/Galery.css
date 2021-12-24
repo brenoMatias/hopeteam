@@ -66,13 +66,13 @@
 
 .galeryBody {
   /* background-color: rgb(17, 0, 255); */
-  min-height: 1000px;
+  min-height: 500px;
+  margin-top: 30px;
 }
 
 
-
 .showButton .btn {
-  background-color: #dceed7;
+  background-color: #79d460;
   width: 100%;
 }
 
@@ -83,4 +83,10 @@
     justify-content: center;
     width: 100vw;
   }
+}
+
+.showB img {
+  height: 2em;
+  margin-top: -65px;
+  color: black;
 }
