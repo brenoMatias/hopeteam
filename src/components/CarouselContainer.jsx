@@ -8,6 +8,7 @@ import logo2 from './../images/logo2.jpg';
 
 const CarouselContainer = () => {
   return (
+    <div className="carousel"> 
     <Carousel fade={true} pause={false}>
       <Carousel.Item interval={2000}>
         <img
@@ -43,6 +44,7 @@ const CarouselContainer = () => {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   )
 }
 

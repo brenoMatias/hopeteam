@@ -2,6 +2,11 @@ body {
   background-color: rgb(2, 10, 10);
 }
 
-.carousel {
-  height: 100px;
+.carousel-item {
+ max-height: 500px;
+}
+
+.carousel-control-next {
+  display: flex;
+  margin-top: 0px;
 }
