@@ -1,28 +1,31 @@
 import './Galery.css';
 import React, { useState } from "react";
-import JsonData from './photos-data.json';
+// import JsonData from './photos-data';
 import ReactPaginate from "react-paginate";
+import photosData from '../../components/galery/photos-galery/photosData.json'
 
 function Photos() {
-  const [users] = useState(JsonData.slice(0, 60));
+  const [photos] = useState(photosData.slice(0, 60));
   const [pageNumber, setPageNumber] = useState(0);
 
-  const usersPerPage = 10;
-  const pagesVisited = pageNumber * usersPerPage;
+  const photosPerPage = 10;
+  const pagesVisited = pageNumber * photosPerPage;
 
-  const displayUsers = users
-    .slice(pagesVisited, pagesVisited + usersPerPage)
-    .map((user) => {
+  const displayphotos = photos
+    .slice(pagesVisited, pagesVisited + photosPerPage)
+    .map((photo) => {
       return (
         <div className="user">
-          <h3>{user.firstName}</h3>
-          <h3>{user.lastName}</h3>
-          <h3>{user.email}</h3>
+          <h3>{photo.lastName}</h3>
+          <img src={photo.src} />
+
+
+  
         </div>
       );
     });
 
-  const pageCount = Math.ceil(users.length / usersPerPage);
+  const pageCount = Math.ceil(photos.length / photosPerPage);
 
   const changePage = ({ selected }) => {
     setPageNumber(selected);
@@ -31,7 +34,7 @@ function Photos() {
   return (
    <div className="cardsList"> 
     <div className="main">
-      {displayUsers}
+      {displayphotos}
       </div>
       <div>
 

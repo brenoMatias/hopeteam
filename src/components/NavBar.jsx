@@ -2,7 +2,7 @@ import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
 import '../components/NavBar.css';
 import typoLogo from '../images/typoLogo.svg';
-
+import img from '../components/img.jpg';
 
 
 function Navbar() {
@@ -15,6 +15,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
+       
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             
@@ -65,6 +66,7 @@ function Navbar() {
           </ul>
 
         </div>
+  
       </nav>
     </>
   );

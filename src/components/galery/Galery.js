@@ -34,6 +34,8 @@ export class Galery extends Component {
     render() {  
         const { showHideComp1, showHideComp2 } = this.state;  
         return (  
+
+            
             <div className="galeryBody"> 
 
             <div className="showButton">                
