@@ -1,6 +1,7 @@
 import React from 'react'
 import '../components/Hero.css';
 import 'animate.css';
+import { Link } from 'react-router-dom';
 
 
 function Hero() {
@@ -9,6 +10,7 @@ function Hero() {
             
 
             <div className="container-2"> 
+
             <h1 class="animate__animated animate__backInLeft">Por que praticar boxe?</h1>
 
             <h2> As artes marciais estimulam o desenvolvimento de várias habilidades. A prática de arte marcial traz muitos benefícios para a saúde física e mental, de crianças à idosos. Por meio do boxe é possível também aprender a compartilhar valores e experiências. </h2>
@@ -34,7 +36,7 @@ function Hero() {
                 <p className="p1">  Redução do estresse</p>
             </i>
             <i class="fas fa-boxing-glove">
-                <p className="p1"> Elevação da autoestimal</p>
+                <p className="p1"> Elevação da autoestima</p>
             </i>
 
                 <div>
