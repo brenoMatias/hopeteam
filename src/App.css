@@ -75,6 +75,10 @@ body {
     margin-left: auto;
     margin-top: auto;
   }
+
+  .d-block {
+    min-height: 400px;
+  }
 }
 
 .about-main {
@@ -83,4 +87,24 @@ body {
   width: 1024px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.carousel-img
+{
+    min-width:100%;
+    min-height: 100%;
+    object-fit: cover;
+
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.d-block {
+  max-height: 500px;
+}
+
+.carousel {
+  margin-top: 29px;
 }

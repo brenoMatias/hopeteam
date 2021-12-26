@@ -10,7 +10,7 @@ function Photos() {
   const [photos] = useState(photosData.slice(0, 60));
   const [pageNumber, setPageNumber] = useState(0);
 
-  const photosPerPage = 10;
+  const photosPerPage = 8;
   const pagesVisited = pageNumber * photosPerPage;
 
   const displayphotos = photos

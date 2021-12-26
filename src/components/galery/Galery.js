@@ -37,6 +37,9 @@ export class Galery extends Component {
 
             
             <div className="galeryBody"> 
+            <div className="galery text">
+                <h1> Confira um pouco da nossa história através de imagens!</h1>
+             </div>
 
             <div className="showButton">                
                 <div className="showB">  

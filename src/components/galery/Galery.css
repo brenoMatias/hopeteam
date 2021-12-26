@@ -1,15 +1,16 @@
-/* .cardsList {
-  background-color: rgba(2, 2, 2, 0.521);
+.cardsList {
+  background-color: rgba(230, 41, 41, 0.521);
   min-height: 100px;
   max-width: 1024px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 150px;
-} */
+  /* justify-content: space-between; */
+  padding-top: 30px;
+  justify-content: center;
+}
 
-
+/* transition properties */
 
 .main {
   display: grid;
@@ -27,8 +28,9 @@
   align-items: center;
   flex-direction: column;
   margin: 20px;
-  min-width: 500px;
-  min-height: 600px;
+  min-width: 450px;
+  min-height: 400px;
+
 }
 
 .galery-img {
@@ -36,6 +38,7 @@
   min-width: 400px;
   min-height: 400px;
   transition: transform ease-in-out 0.3s;
+  padding-top: 60px;
 }
 
 .galery-img:hover {
@@ -95,6 +98,32 @@
     justify-content: center;
     width: 100vw;
   }
+
+  .user {
+    border: 2px solid black;
+    border-radius: 10px;
+    /* background-color: #b3e3ff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    min-width: 300px;
+    m-height: 300px;
+  
+  }
+  .galery-img {
+
+    min-width: 250px;
+    min-height: 300px;
+    transition: transform ease-in-out 0.3s;
+    padding-top: 60px;
+  }
+  
+  .galery-img:hover {
+    transform: scale(1.2);
+  }
+  
 }
 
 .showB img {
@@ -102,3 +131,7 @@
   margin-top: -65px;
   color: black;
 }
+
+
+/* https://stackoverflow.com/questions/37706383/go-to-a-specific-location-on-web-page-when-clicking-a-button */
+
