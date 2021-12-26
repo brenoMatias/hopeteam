@@ -2,7 +2,9 @@ import './Galery.css';
 import React, { useState } from "react";
 // import JsonData from './photos-data';
 import ReactPaginate from "react-paginate";
-import photosData from '../../components/galery/photos-galery/photosData.json'
+import {photosData} from '../../components/galery/photos-galery/photosData';
+import InnerImageZoom from 'react-inner-image-zoom';
+
 
 function Photos() {
   const [photos] = useState(photosData.slice(0, 60));
@@ -16,12 +18,14 @@ function Photos() {
     .map((photo) => {
       return (
         <div className="user">
-          <h3>{photo.lastName}</h3>
-          <img src={photo.src} />
+        
+          <img className="galery-img" src={photo.image} alt="lala"/>
+          <h3>{photo.id}</h3>  
 
-
-  
+          
         </div>
+        
+        
       );
     });
 
