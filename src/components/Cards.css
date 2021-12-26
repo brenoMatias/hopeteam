@@ -1,7 +1,7 @@
 .cards {
-  padding: 4rem;
-  background: #fff;
-  background-color: #dfe3ec;
+  padding: 2rem;
+  /* background: #fff; */
+  /* background-color: #fafafa; */
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
@@ -18,7 +18,7 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
-  background-color: rgb(5, 0, 0);
+  /* background-color: rgba(245, 241, 241, 0.397); */
 }
 
 .cards-wrapper {
@@ -41,12 +41,14 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  box-shadow: 0 6px 20px rgba(128, 145, 64, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
+  border-radius: 30px;
   overflow: hidden;
   text-decoration: none;
+  background-color: rgba(33, 31, 151, 0.993);
+  height: 31em;
 }
 
 .cards-item-pic-wrap {
@@ -54,6 +56,8 @@ h1 {
   width: 100%;
   padding-top: 67%;
   overflow: hidden;
+  min-height: 400px;
+  
 }
 
 .fade-img {
@@ -71,7 +75,7 @@ h1 {
   font-size: 12px;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: #000508;
   box-sizing: border-box;
 }
 
@@ -83,10 +87,9 @@ h1 {
   left: 0;
   display: block;
   width: 100%;
-  max-width: 100%;
   height: 100%;
   max-height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: all 0.2s linear;
 }
 
@@ -95,13 +98,15 @@ h1 {
 }
 
 .cards-item-info {
-  padding: 20px 30px 30px;
+  max-height: 50px;
 }
 
 .cards-item-text {
-  color: #252e48;
+  color: #f6f7fa;
   font-size: 18px;
   line-height: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -123,3 +128,9 @@ h1 {
 }
 
 
+
+.animate__heartBeat{
+  animation-iteration-count: infinite;
+
+
+}

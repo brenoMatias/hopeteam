@@ -85,3 +85,8 @@ margin-left: 20px;
 h2 {
   
 }
+
+.animate__animated {
+  animation-iteration-count: 1;
+
+}
