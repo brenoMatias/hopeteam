@@ -1,3 +1,16 @@
+@import url('https://fonts.google.com/specimen/Fjalla+One');
+@import url('https://fonts.google.com/specimen/Anton');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+
+body {
+  font-family:'Fjalla One';
+  color: blue;
+}
+
+
+
 @media (max-width: 900px) {
     .carousel {
       width:auto;
@@ -11,6 +24,7 @@ h1 {
 }
 
 .hero-container {
+  font-family: 'Fjalla One', sans-serif, Arial, Helvetica, sans-serif;
   margin-top: px;
   max-width: 1024px;
   background-image: linear-gradient(90deg, rgba(7, 1, 0, 0.336), rgba(235, 224, 224, 0.986));
@@ -96,6 +110,8 @@ h2 {
 .hh1 {
   margin-top: 40px;
   font-size: 4em;
+  font-family: 'Orbitron', sans-serif;
+    color: black;
 }
 
 .beneficies {
@@ -106,9 +122,29 @@ h2 {
 .h22 {
   margin-top: 40px;
   margin-bottom: 60px;
+  color: black;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .melhor {
   margin-top: 40px;
   margin-bottom: 50px;
+}
+
+.p11 {
+  color: black;
+  font-family: 'Orbitron', sans-serif;
+    font-size: 0.9em;
+
+}
+
+.venha {
+  color: rgb(47, 0, 255);
+  border: 2px solid black;
+  border-radius: 25px;
+  /* font-family: 'Anton', sans-serif; */
+}
+
+.fa-boxing-glove{
+  color: red;
 }

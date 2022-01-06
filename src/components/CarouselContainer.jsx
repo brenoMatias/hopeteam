@@ -28,7 +28,7 @@ const CarouselContainer = () => {
         <Carousel.Caption >
           <div className='ccaption'> 
           <h3>Academia de Boxe</h3>
-          <p>Ipatinga - MG.</p>
+          <p>Ipatinga - MG</p>
           </div>
         </Carousel.Caption>
         </div>
@@ -42,7 +42,7 @@ const CarouselContainer = () => {
 
         />
         <Carousel.Caption>
-        <div className='ccaptionmude'> 
+        <div className='animate__animated animate__rotateIn ccaptionmude'> 
           <h3>MUDE SEU ESTILO DE VIDA!</h3>
           </div>
         </Carousel.Caption>

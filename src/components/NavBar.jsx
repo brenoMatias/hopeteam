@@ -40,7 +40,7 @@ function Navbar() {
                 to='/sobre'
                 className='nav-links'
                 onClick={closeMobileMenu}>
-                Hope
+                A Hope
               </Link>
             </li>
 
