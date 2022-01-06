@@ -38,7 +38,7 @@ export class Galery extends Component {
             
             <div className="galeryBody"> 
             <div className="galery text">
-                <h1> Confira um pouco da nossa história através de imagens!</h1>
+                <h1> Confira um pouco da nossa história!</h1>
              </div>
 
             <div className="showButton">                
@@ -46,15 +46,24 @@ export class Galery extends Component {
                     <button className="btn btn-info" onClick={() => this.hideComponent("showHideComp1")}>  
                         Fotos 
               </button>  
-              <img clasName="arrow-icon" src={arrowDown1}></img>
-              
+              <div className='gif'> 
+            <img className="gifphotos"src="https://www.animatedimages.org/data/media/111/animated-arrow-image-0439.gif" border="0" alt="animated-arrow-image-0439" />
+            </div>
+
+
               {showHideComp1 && <Comp1 />} 
               </div> 
 
-              <div>
+
+              <div className="showB">
                     <button className="btn btn-info" onClick={() => this.hideComponent("showHideComp2")}>  
                         Videos 
               </button>  
+              <div className='gif'> 
+            <img className="gifphotos"src="https://www.animatedimages.org/data/media/111/animated-arrow-image-0439.gif" border="0" alt="animated-arrow-image-0439" />
+            </div>
+              
+              
                 {showHideComp2 && <Comp2 />}  
                 </div>
             </div>  
