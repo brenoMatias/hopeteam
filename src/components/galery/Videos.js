@@ -2,9 +2,10 @@ import './Galery.css';
 import React, { useState } from "react";
 import JsonData from './videos-data.json';
 import ReactPaginate from "react-paginate";
+import { videoData } from './videos-data2';
 
 function Videos() {
-  const [users] = useState(JsonData.slice(0, 60));
+  const [users] = useState(videoData.slice(0, 60));
   const [pageNumber, setPageNumber] = useState(0);
 
   const usersPerPage = 10;
@@ -12,12 +13,11 @@ function Videos() {
 
   const displayUsers = users
     .slice(pagesVisited, pagesVisited + usersPerPage)
-    .map((user) => {
+    .map((video) => {
       return (
         <div className="user">
-          <h3>{user.firstName}</h3>
-          <h3>{user.lastName}</h3>
-          <h3>{user.email}</h3>
+          <h3>{video.title}</h3>
+          <iframe className='video-item' allowfullscreen="allowfullscreen" src={video.src} alt={video.title} title={video.title}></iframe>
         </div>
       );
     });
@@ -36,8 +36,8 @@ function Videos() {
       <div>
 
       <ReactPaginate
-        previousLabel={"Previous"}
-        nextLabel={"Next"}
+        previousLabel={"Anterior"}
+        nextLabel={"Pŕoximo"}
         pageCount={pageCount}
         onPageChange={changePage}
         containerClassName={"paginationBttns"}

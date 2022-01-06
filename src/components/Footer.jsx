@@ -16,46 +16,19 @@ function Footer() {
             </Link>
           </div>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook i'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f i-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram i'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube i1'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter i'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter i'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+
+          <a  class='social-icon-link facebook i' href="https://www.facebook.com/hopeteamboxing/"
+          target='_blank' aria-label='Facebook' rel="noreferrer">
+            <i class='fab fa-facebook-f i-f' /></a>
+            
+            <a  class='social-icon-link instagram i' href="https://www.instagram.com/duduhopeteam/?hl=en"
+          target='_blank' aria-label='Instagram' rel="noreferrer">
+           <i class='fab fa-instagram' /></a>
+              
+           <a  class='social-icon-link whatsapp i' href=" https://wa.me/5531986788735"
+          target='_blank' aria-label='Whatsapp' rel="noreferrer">
+          <i class="fab fa-whatsapp"></i></a>
+              
           </div>
         </div>
       </section>
